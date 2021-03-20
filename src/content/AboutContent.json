@@ -1,0 +1,22 @@
+{
+  "title": "Unbiased Advice. We only work for you!",
+  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "section": [
+    {
+      "title": "We are not affiliated with any mutual fund products or services",
+      "icon": "credibility.svg"
+    },
+    {
+      "title": "We don't earn any kind of commission from any mutual fund houses or platforms",
+      "icon": "reliability.svg"
+    },
+    {
+      "title": "We don't have any mutual fund or other investment products to sell",
+      "icon": "cooperation.svg"
+    },
+    {
+      "title": "We only provide our advice and nothing else",
+      "icon": "growth.svg"
+    }
+  ]
+}
