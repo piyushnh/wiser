@@ -31,9 +31,12 @@ const Home = () => {
         first="true"
         title={IntroContent.title}
         content={IntroContent.text}
-        button={IntroContent.button}
         icon="developer.svg"
         id="intro"
+      />
+      <TypeFormButton 
+        buttonText={'Chat with us'}
+        typeFormUrl={'https://rkeg813atqm.typeform.com/to/Gq1o3vKn'}
       />
        <ContentBlock
         type="left"
