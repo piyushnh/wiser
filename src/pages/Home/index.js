@@ -5,7 +5,7 @@ import Faq from "react-faq-component";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
-import FaqContent from "../../content/FaqContent.json";
+import FaqContent from "../../content/FaqContent.js";
 import GoogleAnalytics from '../../common/GoogleAnalytics';
 
 
@@ -71,10 +71,10 @@ const Home = () => {
        <Faq
                 data={FaqContent}
             />
-             <TypeFormButton 
+             {/* <TypeFormButton 
         buttonText={'Contact Us'}
         typeFormUrl={'https://rkeg813atqm.typeform.com/to/dkLtLebY'}
-      />
+      /> */}
       {/* <ContactFrom
         title={ContactContent.title}
         content={ContactContent.text}

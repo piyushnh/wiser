@@ -1,5 +1,5 @@
 
-   { 
+  export default  { 
     "title": "FAQ",
     "rows": [
         {
@@ -21,7 +21,7 @@
         },
         {
             "title": "I have a few suggestions, how should I tell you?",
-            "content": "Just fill out the contact us form below!"
+            "content": <p>Just fill out this <a href="https://rkeg813atqm.typeform.com/to/dkLtLebY">contact form</a> !</p>
         }
 
     ]
