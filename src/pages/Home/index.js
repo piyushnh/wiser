@@ -1,5 +1,7 @@
 import React, { useEffect, lazy } from 'react'
 import Faq from "react-faq-component";
+import Iframe from 'react-iframe'
+
 
 
 import IntroContent from "../../content/IntroContent.json";
@@ -50,6 +52,9 @@ const Home = () => {
         content={MiddleBlockContent.text}
         id="product"
       />
+
+{/* <div data-paperform-id="wiser-chat"></div> */}
+
               <TypeFormButton 
         buttonText={'Chat with us'}
         typeFormUrl={'https://rkeg813atqm.typeform.com/to/Gq1o3vKn'}

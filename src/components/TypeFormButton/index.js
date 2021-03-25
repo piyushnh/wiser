@@ -20,7 +20,9 @@ const TypeFormButton = ({ t, buttonText, typeFormUrl, content }) => {
 
   const openForm = () => {
     
-    typeformEmbed.typeform.open();
+    // typeformEmbed.typeform.open();
+    document.querySelector('.woot--bubble-holder').click();
+
     GoogleAnalytics.track({
       category: buttonText,
       action: 'Opened',
@@ -45,7 +47,7 @@ const TypeFormButton = ({ t, buttonText, typeFormUrl, content }) => {
       <S.Container>
         <S.Content>{t(content)}</S.Content>
 
-        <ReactTypeformEmbed
+        {/* <ReactTypeformEmbed
           autoOpen={false}
           popup
           url={typeFormUrl}
@@ -56,8 +58,10 @@ const TypeFormButton = ({ t, buttonText, typeFormUrl, content }) => {
           ref={tf => {
            typeformEmbed = tf;
           }}
+        mode="drawer_right"
+
           onSubmit={onFormSubmit}
-        />
+        /> */}
          <Button
                   name="submit"
                   type="submit"
